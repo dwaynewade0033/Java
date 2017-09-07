@@ -12,7 +12,7 @@ public class Test {
         myTest.add("Javaa");
         Main main = new Main();
         List<Integer> list = main.testMain(myTest);
-        assertEquals(list, list);
+        assertEquals(myTest.size(), 2);
 
 
     }
